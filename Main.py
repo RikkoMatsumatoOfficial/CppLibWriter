@@ -13,10 +13,11 @@ def Main():
     delimiter = " "
     libname = input("Write Folder for Writing Lists of Libs: ")
     file = [os.path.basename(x) for x in gl.glob(libname + "\\*.lib")]
-    with open("Libs.txt", "wt") as libs:
-        print(delimiter.join(file) + "\n")
-        libs.write(delimiter.join(file))
+    with open("{}".format(os.getcwd() + "\\Libs.txt"), "a") as libs:
+        print(file)
+        libs.write(delimiter.join(file) + "\r\n")
         slp(12)
+        libs.close()
         exitfunc(332)
    
     exitfunc(312)
