@@ -15,7 +15,7 @@ def Main():
     file = [os.path.basename(x) for x in gl.glob(libname + "\\*.lib")]
     with open("{}".format(os.getcwd() + "\\Libs.txt"), "a") as libs:
         print(file)
-        libs.write(delimiter.join(file) + "\r\n")
+        libs.write(delimiter.join(file))
         slp(12)
         libs.close()
         exitfunc(332)
