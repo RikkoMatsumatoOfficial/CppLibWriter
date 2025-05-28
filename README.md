@@ -7,7 +7,7 @@ Inspired me to make this program it's restriction with Visual Studio(ANY VERSION
 Enjoy to use this.
 
 > [!CAUTION]
-> If not worked, you can create issue or if you know python as well, you can fix this problem!!!
+> If not worked, you can create issue or if you know python as well, you can fix problems with my program!!!
 
 ## Donations
 
